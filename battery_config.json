@@ -1,0 +1,16 @@
+{
+  "monitoring_interval": 60,
+  "health_check_interval": 3600,
+  "max_charging_limit": 80,
+  "min_battery_level": 20,
+  "notifications": {
+    "low_battery": true,
+    "charging_complete": true,
+    "charging_started": true,
+    "health_alert": true
+  },
+  "power_saving_mode": false,
+  "auto_optimize": true,
+  "log_level": "info",
+  "data_retention_days": 30
+}
